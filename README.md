@@ -10,5 +10,6 @@ const task = {
 }
 
 jobtest.addTask(task)
+
 jobtest.process()
 
