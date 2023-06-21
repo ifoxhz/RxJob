@@ -1,0 +1,30 @@
+{
+  "name": "rxjob",
+  "version": "1.0.0",
+  "description": "the job execute framework base rxjs",
+  "main": "rxjob.js",
+  "scripts": {
+    "test": "node rxjob.js",
+    "start": "node rxjob.js"
+  },
+  "dependencies": {
+    "js-md5": "^0.7.3",
+    "rxjs": "^7.8.1",
+    "uuid": "^9.0.0"
+  },
+  "author": "yong",
+  "license": "MIT",
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/**/*"
+    ],
+    "targets": [
+      "-linux-arm64"
+    ],
+    "outputPath": "dist"
+  },
+  "bin": "rxjob.js"
+}
